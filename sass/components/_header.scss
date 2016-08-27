@@ -1,0 +1,64 @@
+/*****COMPONENTS****/
+/*****HEADER*****/
+
+.summary, .preamble, .main{
+    color: $colorTitle;
+}
+.summary{
+    font-size: 1.5625em; // 25px
+    text-align: center;
+    line-height: 1.3em;
+}
+.summary a{
+    text-decoration: none;
+    color: $colorRed;
+}
+h1{
+    color: $colorTitle;
+    font-size: 5em; // 80px
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 0.0625em solid $colorRed; // 5px (80px)
+}
+h2{
+    font-size: 2.5em; // 40px
+    color: $colorTitle;
+    text-align: center;
+}
+header{
+    background: url('../img/background.jpg') no-repeat;
+    background-size: cover;
+}
+@media screen and ( max-width:700px ) {
+    .summary, .preamble, .main{
+        padding: 0 2em; // 50px (25px)
+    }
+    header{
+        padding: 0 3.125em; // 0 50px
+    }
+    h1{
+        font-size: 3.75em; // 60px
+    }
+    h2{
+        font-size: 1.875em; // 30px
+    }
+}
+@media screen and ( max-width:600px ) {
+    h1{
+        font-size: 2.5em; // 40px
+    }
+    h2{
+        font-size: 1.25em;
+    }
+    .summary{
+        text-align: left;
+    }
+}
+@media screen and ( max-width:450px ) {
+    h1{
+        font-size: 1.875em; // 30px
+    }
+    h2{
+        font-size: 0.9375em; // 15px
+    }
+}

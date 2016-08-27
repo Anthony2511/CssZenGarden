@@ -1,0 +1,29 @@
+/*****COMPONENTS*****/
+/*****FOOTER*****/
+
+footer{
+    text-align: center;
+}
+.zen-validate-html{
+    content: url('../img/html-5.png');
+}
+.zen-validate-css{
+    content: url('../img/css-3-logo.png');
+}
+.zen-license{
+    content: url('../img/creative-commons-logo.png');
+}
+.zen-accessibility{
+    content: url('../img/disabled.png');
+}
+.zen-github{
+    content: url('../img/github.png');
+}
+
+/*****MEDIA QUERIES*****/
+
+@media screen and ( max-width:700px ) {
+    .zen-validate-html, .zen-validate-css, .zen-license, .zen-accessibility, .zen-github{
+        width: 7.5%;
+    }
+}

@@ -1,0 +1,21 @@
+/*****COMPONENTS*****/
+/*****ASIDE*****/
+
+.sidebar{
+    background-color: $colorBlack;
+    padding: 1.666666em 0; // 30px (18px)
+    font-size: 1.125em; // 18px
+}
+
+/*****MEDIA QUERIES*****/
+
+@media screen and ( max-width:700px ) {
+    .sidebar{
+        font-size: 1em; // 16px
+        text-align: center;
+        margin:  0 auto;
+    }
+    .design-selection, .design-archives, .zen-resources{
+        margin-left: 0;
+    }
+}

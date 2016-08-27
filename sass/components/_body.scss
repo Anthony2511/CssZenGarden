@@ -1,0 +1,44 @@
+/******COMPONENTS*****/
+/*****BODY*****/
+body{
+    font-family: $raleway;
+    line-height: 1.4em;
+    background-color: #212121;
+}
+a{
+    text-decoration: none;
+    color: $colorRed ;
+}
+h3{
+   font-size: 1.5625em; // 25px
+   font-weight: 500;
+   color: $colorTitle;
+}
+.preamble h3::before{
+    content: url('../img/trophée.png');
+}
+.explanation h3:before{
+    content: url('../img/sifflet.png');
+}
+.participation h3::before{
+    content: url('../img/panier.png');
+}
+.benefits h3::before{
+    content: url('../img/shirt.png');
+}
+.requirements h3::before{
+    content: url('../img/ballon.png');
+}
+
+/*****MEDIA QUERIES*****/
+
+@media screen and ( max-width:700px ) {
+    h3{
+        font-size: 1.125em; // 18px
+    }
+    .preamble h3::before{
+        content: url('../img/trophée.png');
+        width: 50%;
+        height: auto;
+    }
+}

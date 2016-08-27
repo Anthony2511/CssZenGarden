@@ -1,0 +1,23 @@
+/*****OBJECTS****/
+/*****HEADER*****/
+
+.summary, .preamble, .main{
+    max-width: 43.75em; // 700px
+    margin: 3.125em auto; // 50px
+}
+.summary{
+    margin-bottom: 3.2em; // 80px(25px)
+}
+.summary p:last-child{
+    margin-top: 1.25em; // 20px
+}
+h1{
+    margin: 0 auto;
+    margin-bottom: 0.25em; // 20px (80px)
+    padding: 0.625em 0; // 50px (80px)
+    max-width: 8.75em; // 700px (80px)
+}
+header{
+    max-width: 100%;
+    height: 75vh;
+}
